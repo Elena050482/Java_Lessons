@@ -2,7 +2,7 @@
 * Java 1. Homework 2
 *
 * @ author Elena Zavarzina
-* @ version 29.03.2022
+* @ version 30.03.2022
 */
 class HomeWorkTwo {
 
