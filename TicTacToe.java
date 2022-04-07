@@ -46,9 +46,9 @@ class TicTacToe {
                 System.out.println("SORRY, DRAW!");
                 break;
             }
-         }
-         System.out.println("GAME OVER");
-         printTable();
+        }
+        System.out.println("GAME OVER");
+        printTable();
     }
     
     void initTable() {
@@ -56,7 +56,7 @@ class TicTacToe {
             for (int x = 0; x < 3; x++) {
                 table [x][y] = '.';
             }
-         }
+        }
     }
     
     void printTable() {
@@ -110,8 +110,8 @@ class TicTacToe {
                     if (countV == 3) return true;
                 }
         
-               if (table[0][0] == ch && table[1][1] == ch && table[2][2] == ch) return true;
-               if (table[2][0] == ch && table[1][1] == ch && table[0][2] == ch) return true;
+                if (table[0][0] == ch && table[1][1] == ch && table[2][2] == ch) return true;
+                if (table[2][0] == ch && table[1][1] == ch && table[0][2] == ch) return true;
             }
         }
         return false;
